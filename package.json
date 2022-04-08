@@ -1,0 +1,14 @@
+{
+  "name": "jest-runtime-esm-process-repro",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS='--experimental-vm-modules' jest"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
